@@ -5,7 +5,6 @@ import { Input } from "antd";
 const { Search } = Input;
 
 const DOMAIN = process.env.REACT_APP_DOMAIN;
-console.log("DOMAIN: ", DOMAIN);
 const searchContainer = {
   display: "flex",
   justifyContent: "center",
